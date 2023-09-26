@@ -12,7 +12,7 @@ soup =""
 
 handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='w')
 
-token ='NjE5NTM0MDI3OTg4NDAyMTg4.GIL0Xo.I-Ja8ZpzOhUi674hglUxmCrFQlIzm5lmAK-m0g'
+token ='token'
 intents = discord.Intents.default()
 intents.message_content = True
 #the bot subclass is just a more robust client so I named the bot a client.
